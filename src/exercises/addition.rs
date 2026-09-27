@@ -1,3 +1,3 @@
-use crate::models::Number;
+use rand::RngExt;
 
-pub struct Addition(Number);
+use crate::{exercises::Exercise, models::Number};
